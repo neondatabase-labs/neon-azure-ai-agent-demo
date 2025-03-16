@@ -1,0 +1,4 @@
+azure-identity==1.19.0
+python-dotenv==1.0.1
+azure-ai-projects==1.0.0b7
+neon-api==0.3.0
