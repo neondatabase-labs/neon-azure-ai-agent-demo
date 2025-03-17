@@ -1,6 +1,6 @@
 # Neon API & Azure AI Agent Integration
 
-This project integrates the **[Neon Management API](https://api-docs.neon.tech/reference/getting-started-with-neon-api)** in Python using [Neon SDK](https://pypi.org/project/neon-api/) with **[Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-services/agents/overview)** to create, manage, and interact with Neon projects, databases, branches, and more using AI-driven commands.
+This project integrates the **[Neon Management API](https://api-docs.neon.tech/reference/getting-started-with-neon-api?refcode=44WD03UH)** in Python using [Neon SDK](https://pypi.org/project/neon-api/) with **[Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-services/agents/overview)** to create, manage, and interact with Neon projects, databases, branches, and more using AI-driven commands.
 
 ## Features
 - Create and manage Neon projects, databases, branches, roles, and endpoints.
@@ -42,7 +42,7 @@ The following tools are supported through Neon API:
 Before running the project, ensure you have:
 - Python 3.8+
 - An **[Azure AI Agent](https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=ai-foundry-portal)** setup
-- A **[Neon API Key](https://neon.tech/docs/manage/api-keys#creating-api-keys)**
+- A **[Neon API Key](https://neon.tech/docs/manage/api-keys#creating-api-keys?refcode=44WD03UH)**
 
 ## Installation
 1. Clone this repository:

@@ -62,9 +62,9 @@ user_functions: Set[Callable[..., Any]] = {
     # list_api_keys,
     # create_api_key,
     # delete_api_key,
-    list_projects,
+    # list_projects,
     # get_project,
-    # create_project,
+    create_project,
     # update_project,
     # delete_project,
     # get_project_permissions,
@@ -134,7 +134,6 @@ def process_command(command: str):
     run = project_client.agents.create_and_process_run(
         thread_id=thread.id, agent_id=agent.id
     )
-    print(f"✅ Your project created successfully: My Neon Project")
     print(f"✅ Run finished with status: {run.status}")
 
     if run.status == "failed":
